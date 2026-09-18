@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-myanmar: "Noto Sans Myanmar", "Padauk", sans-serif;
+
+  --color-primary-50: #f0fafa;
+  --color-primary-100: #e1f4f5;
+  --color-primary-200: #bce4e6;
+  --color-primary-300: #87ccd0;
+  --color-primary-400: #4baeb5;
+  --color-primary-500: #1e9da6;
+  --color-primary-600: #17828a;
+  --color-primary-700: #12646a;
+  --color-primary-800: #0e4f54;
+  --color-primary-900: #0b3b3e;
+  --color-primary-950: #062527;
+}
+
+/* Custom Healthcare UI Utilities */
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Prevent long headers or preformatted text from overflowing small 320px screens */
+  h1, h2, h3, h4, h5, h6, p {
+    overflow-wrap: break-word;
+  }
+
+  .whitespace-nowrap {
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+  }
+
+  /* Custom scrollbar for dashboard tables and sidebars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}

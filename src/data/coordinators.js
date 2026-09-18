@@ -1,0 +1,62 @@
+export const MOCK_COORDINATORS = [
+  {
+    id: "coord-01",
+    name: "Thura Aung",
+    role: "Senior Medical Coordinator",
+    email: "thura.aung@tmghealthcare.com",
+    phone: "+66 82 491 5821",
+    languages: ["Burmese (Native)", "Thai (Fluent)", "English (Professional)"],
+    specialtyFocus: ["Oncology", "Cardiology"],
+    activeCasesCount: 14,
+    completedCasesCount: 132,
+    rating: 4.95,
+    status: "Active",
+    location: "Bangkok Liaison Office",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80"
+  },
+  {
+    id: "coord-02",
+    name: "Su Myat Noe",
+    role: "Patient Liaison & Hospital Facilitator",
+    email: "su.myatnoe@tmghealthcare.com",
+    phone: "+66 81 332 9482",
+    languages: ["Burmese (Native)", "Thai (Fluent)", "English (Fluent)"],
+    specialtyFocus: ["Orthopedics", "Gastroenterology"],
+    activeCasesCount: 11,
+    completedCasesCount: 98,
+    rating: 4.88,
+    status: "Active",
+    location: "Bangkok Hospital HQ Desk",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=250&q=80"
+  },
+  {
+    id: "coord-03",
+    name: "Htet Lin Oo",
+    role: "Clinical Intake & Case Manager",
+    email: "htet.linoo@tmghealthcare.com",
+    phone: "+95 9 798 124 551",
+    languages: ["Burmese (Native)", "English (Professional)", "Thai (Conversational)"],
+    specialtyFocus: ["Neurology", "Organ Transplant"],
+    activeCasesCount: 9,
+    completedCasesCount: 76,
+    rating: 4.92,
+    status: "Active",
+    location: "Yangon Patient Center",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80"
+  },
+  {
+    id: "coord-04",
+    name: "May Zun Phyo",
+    role: "Follow-up & Continuity Specialist",
+    email: "may.zunphyo@tmghealthcare.com",
+    phone: "+66 89 214 7730",
+    languages: ["Burmese (Native)", "Thai (Fluent)", "English (Conversational)"],
+    specialtyFocus: ["Endocrinology", "Executive Screening"],
+    activeCasesCount: 8,
+    completedCasesCount: 64,
+    rating: 4.85,
+    status: "Active",
+    location: "Bangkok Liaison Office",
+    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=250&q=80"
+  }
+];
